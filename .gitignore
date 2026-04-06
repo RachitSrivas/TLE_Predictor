@@ -1,0 +1,17 @@
+# Ignore generated data files (users can run your generate_data.py to get them)
+*.csv
+# Model and Scaler files
+*.h5
+*.pkl
+
+# Python Cache and Virtual Environments (Standard good practice)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+
+# Streamlit specific (if you ever add secrets)
+.streamlit/secrets.toml
